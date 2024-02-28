@@ -10,20 +10,3 @@ if (somme > 20 ) {
 else {
     document.querySelector(".resultat").style.backgroundColor = "green"
 }
-document.querySelector(".btn-calculer").addEventListener("click",CalculeClick)
-
-let vInput = document.querySelectorAll("input");
-
-for (let i = 0 ; i <=vInput.length-1 ; i++){
-    vInput[i].style.backgroundColor = "red";
-    vInput[i].style.color="white";
-}
-console.log(vInput[1]);
-console.log(vInput.length);
-
-// ----------------------------------------------
-
-// document.querySelector(".btn-calculer").style.border = "solid 2px aqua";
-// document.querySelector(".btn-calculer").style.marginTop = "20px" ;
-// document.querySelector(".btn-calculer").style.width="150 px";
-document.querySelector(".btn-calculer").style.backgroundColor = "aquamarine"
