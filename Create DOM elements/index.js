@@ -5,22 +5,22 @@
     getElementsByClassName is used for loops 
     getElementsByTagName is used for loops 
 */
-// document.querySelector(".creer-titre").addEventListener("click", function(){
-//     const parent = document.querySelector(".section-1");
-//     const titre = document.createElement("h1");
-//     titre.innerHTML = "This is a title";
-//     titre.style.color="blue";
-//     titre.style.backgroundColor="green";
-//     parent.prepend(titre)
-// })
+document.querySelector(".creer-titre").addEventListener("click", function(){
+    const parent = document.querySelector(".section-1");
+    const titre = document.createElement("h1");
+    titre.innerHTML = "This is a title";
+    titre.style.color="blue";
+    titre.style.backgroundColor="green";
+    parent.append(titre)
+})
 
-// document.querySelector("button").style.color="gold" ;
-// document.querySelector("button").style.border= " 2px solid " ;
-// document.querySelector(".section-1").style.marginLeft ="20px" ;
-// document.querySelector(".deletethiselement").addEventListener("click",function(){
-//     const removethis =document.querySelector(".deletethiselement");
-//     removethis.remove();
-// })
+document.querySelector("button").style.color="gold" ;
+document.querySelector("button").style.border= " 2px solid " ;
+document.querySelector(".section-1").style.textAlign ="center" ;
+document.querySelector(".deletethiselement").addEventListener("click",function(){
+    const removethis =document.querySelector("h1");
+    removethis.remove();
+})
 
 document.querySelector(".btn-remplacer").addEventListener("click",function(){
     const parent = document.querySelector(".section-1");
